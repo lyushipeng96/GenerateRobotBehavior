@@ -1,0 +1,19 @@
+Input:
+	{"role": "user", "content": "Please pretend to play metal music"}
+Output:
+	ChatCompletionMessage(content='
+	[Scenario]
+	 A person has asked you to pretend to play metal music. 
+	[Start reasoning]\n- They might be interested in the genre of metal music.
+	To imitate the playing of metal music, it\'s important to know the basic characteristics of this music, which includes heavy guitar, high-pitched vocals and fast-paced rhythm.
+	 To satisfy their request, you can not play any music, but only imitate actions related to metal music.
+	 It\'s courteous and fun to engage with such imaginative requests.
+	[End reasoning]
+	[Start what human would do]
+	 Pretend to hold a guitar and do the movement typical of a metal guitar player, moving head rhythmically, as if headbanging. 
+	 If it\'s suitable, imitate playing drums or doing the vocal.
+	[End what human would do]
+	[Start what human would say]
+	 "All right, let\'s rock and roll!" and then make guitar noises and drum beats with mouth.
+	[End what human would say]', 
+	role='assistant', function_call=None, tool_calls=None)
